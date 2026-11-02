@@ -1,0 +1,14 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card-custom {
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+.table-custom th {
+    background-color: #212529;
+    color: #ffffff;
+}

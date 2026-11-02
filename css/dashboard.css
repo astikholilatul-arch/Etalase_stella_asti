@@ -1,0 +1,45 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.project-card {
+    transition: transform 0.2s ease-in-out;
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-img {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Efek kursor pointer pada card project */
+.project-card {
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-img {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Efek Backdrop Modal Blur */
+.modal-backdrop.show {
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.5);
+}
